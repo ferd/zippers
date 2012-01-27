@@ -1,0 +1,8 @@
+*.swp
+*.beam
+*.dump
+*.COVER.*
+doc/*.html
+doc/*.png
+doc/*.css
+doc/edoc-info

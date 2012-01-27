@@ -1,0 +1,6 @@
+A library version of the zipper data structures described at:
+http://ferd.ca/yet-another-article-on-zippers.html with a few interface
+changes and a more complete testing suite.
+
+The ./test/ directory contains eunit and proper (property-based testing
+tool) tests. Use 'rebar compile' to build or erl -make.

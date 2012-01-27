@@ -1,0 +1,16 @@
+ ** this is the overview.doc file for the application 'zippers' **
+@author Fred Hebert <mononcqc@gmail.com> [http://ferd.ca]
+@version 0.2
+@title Zippers data structures in Erlang
+@doc 
+A zipper is a technique by which a common data structure such as a
+list or tree can be represented in a way that allows to traverse the
+said structure arbitrarily and update its content wherever necessary.
+
+The zipper is often used where there is some concept of 'focus' or of
+moving around in some set of data, since its semantics reflect that of
+moving around but in a functional non-destructive manner.
+@end
+@reference See <a href="http://ferd.ca/yet-another-article-on-zippers.html">
+the related blog post</a>  for more basic details on the concept of zippers
+used in this library.
